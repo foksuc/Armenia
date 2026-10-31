@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T16:38:40.824655+00:00",
+  "title": "Design System: Armenia Travel OS 2.0",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "displayName": "Amber",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.09 72)",
+          "oklch(26% 0.09 72)",
+          "oklch(38% 0.09 72)",
+          "oklch(49% 0.09 72)",
+          "oklch(61% 0.09 72)",
+          "oklch(72% 0.09 72)",
+          "oklch(84% 0.09 72)",
+          "oklch(95% 0.09 72)"
+        ]
+      },
+      "graphite": {
+        "displayName": "Graphite",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.015 250)",
+          "oklch(26% 0.015 250)",
+          "oklch(38% 0.015 250)",
+          "oklch(49% 0.015 250)",
+          "oklch(61% 0.015 250)",
+          "oklch(72% 0.015 250)",
+          "oklch(84% 0.015 250)",
+          "oklch(95% 0.015 250)"
+        ]
+      },
+      "surface": {
+        "displayName": "Glass surface",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.015 250)",
+          "oklch(26% 0.015 250)",
+          "oklch(38% 0.015 250)",
+          "oklch(49% 0.015 250)",
+          "oklch(61% 0.015 250)",
+          "oklch(72% 0.015 250)",
+          "oklch(84% 0.015 250)",
+          "oklch(95% 0.015 250)"
+        ]
+      },
+      "text": {
+        "displayName": "Warm white",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.008 80)",
+          "oklch(26% 0.008 80)",
+          "oklch(38% 0.008 80)",
+          "oklch(49% 0.008 80)",
+          "oklch(61% 0.008 80)",
+          "oklch(72% 0.008 80)",
+          "oklch(84% 0.008 80)",
+          "oklch(95% 0.008 80)"
+        ]
+      },
+      "muted": {
+        "displayName": "Muted text",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.015 260)",
+          "oklch(26% 0.015 260)",
+          "oklch(38% 0.015 260)",
+          "oklch(49% 0.015 260)",
+          "oklch(61% 0.015 260)",
+          "oklch(72% 0.015 260)",
+          "oklch(84% 0.015 260)",
+          "oklch(95% 0.015 260)"
+        ]
+      },
+      "line": {
+        "displayName": "Glass edge",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "solid-surface": {
+        "displayName": "Opaque graphite",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.02 250)",
+          "oklch(26% 0.02 250)",
+          "oklch(38% 0.02 250)",
+          "oklch(49% 0.02 250)",
+          "oklch(61% 0.02 250)",
+          "oklch(72% 0.02 250)",
+          "oklch(84% 0.02 250)",
+          "oklch(95% 0.02 250)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Onest display",
+        "purpose": "Hero headline."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "panel-arrival",
+        "value": "350ms ease-out; translateY(6px) to none",
+        "purpose": "Subtle main panel arrival; disabled for reduced motion."
+      },
+      {
+        "name": "button-surface",
+        "value": "180ms",
+        "purpose": "Background and border-color transitions; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1150px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      }
+    ],
+    "provenance": {
+      "scope": "v2 only",
+      "authority": "Pinned glass/graphite/amber direction; code-led documentation; no approved comp",
+      "sources": [
+        "v2/dashboard.css",
+        "v2/index.html",
+        "v2/app.js",
+        "v2/enhancements.js"
+      ],
+      "tonalRamps": "Synthesized preview-only ramps; not additional implementation tokens.",
+      "review": "Code and supplied screenshots; no browser verification by documenter."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary button from the implemented v2 dashboard.",
+      "html": "<button class=\"ds-primary\">Открыть маршрут ↗</button>",
+      "css": ".ds-primary{font:700 12px Manrope,sans-serif;background:var(--accent,#efc18b);color:#24211d;border:1px solid var(--accent,#efc18b);border-radius:9px;padding:12px 17px;cursor:pointer;transition:background .18s,border-color .18s}.ds-primary:hover{filter:brightness(1.12)}.ds-primary:focus-visible{outline:2px solid var(--accent,#efc18b);outline-offset:4px}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary button from the implemented v2 dashboard.",
+      "html": "<button class=\"ds-secondary\">Печать</button>",
+      "css": ".ds-secondary{font:11px Manrope,sans-serif;background:#ffffff0b;color:var(--text,#f4f1eb);border:1px solid #ffffff24;border-radius:8px;padding:9px 11px;min-height:38px;cursor:pointer}.ds-secondary:hover{filter:brightness(1.12)}.ds-secondary:focus-visible{outline:2px solid var(--accent,#efc18b);outline-offset:4px}"
+    },
+    {
+      "name": "Text input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Text input from the implemented v2 dashboard.",
+      "html": "<input class=\"ds-input\" aria-label=\"Найти место\" placeholder=\"Например, Гарни\">",
+      "css": ".ds-input{font:13px Manrope,sans-serif;background:#171d24b3;color:var(--text,#f4f1eb);border:1px solid #ffffff2b;border-radius:9px;padding:11px;caret-color:var(--accent,#efc18b)}.ds-input:focus-visible{outline:2px solid var(--accent,#efc18b);outline-offset:4px}"
+    },
+    {
+      "name": "Navigation selection",
+      "kind": "nav",
+      "refersTo": "",
+      "description": "Navigation selection from the implemented v2 dashboard.",
+      "html": "<button class=\"ds-nav\" aria-pressed=\"true\">Обзор</button>",
+      "css": ".ds-nav{font:13px Manrope,sans-serif;background:#e6b77d18;color:var(--accent,#efc18b);border:1px solid #e6b77d35;border-radius:10px;padding:14px;cursor:pointer}.ds-nav:hover{background:#ffffff0c}.ds-nav:focus-visible{outline:2px solid var(--accent,#efc18b);outline-offset:4px}"
+    },
+    {
+      "name": "Glass panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Glass panel from the implemented v2 dashboard.",
+      "html": "<section class=\"ds-panel\"><h2>Путешествие по дням</h2><p>13 февраля · Знакомство с Ереваном</p></section>",
+      "css": ".ds-panel{background:var(--surface,rgba(36,42,48,.82));color:var(--text,#f4f1eb);border:1px solid var(--line,#ffffff20);border-radius:16px;padding:25px;backdrop-filter:blur(24px);font:14px Manrope,sans-serif}.ds-panel h2{font:500 20px Onest,Manrope,sans-serif;letter-spacing:-.02em;margin:0 0 20px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Glass, graphite and amber",
+    "overview": "The pinned direction is glass, graphite and amber: a personal travel dashboard with a photographic Armenia hero, quiet translucent surfaces and warm action accents. This document records the implemented v2 system from code and the supplied desktop and mobile screenshots; there is no approved visual comp. It applies to v2 only. The original root guide retains its existing design.",
+    "keyCharacteristics": [
+      "Graphite surfaces with amber actions and selected states.",
+      "Photo-led identity with compact, readable travel tools.",
+      "Desktop sidebar; horizontally scrolling mobile navigation."
+    ],
+    "rules": [],
+    "dos": [
+      "Do preserve the pinned glass, graphite and amber direction.",
+      "Do keep travel facts traceable to the original guide and show their verification date.",
+      "Do preserve visible keyboard focus, local-storage feedback and reduced-motion behavior."
+    ],
+    "donts": [
+      "Do not apply this v2 redesign to the original root guide.",
+      "Do not imply that prices are live or that booking statuses purchase anything.",
+      "Do not treat the screenshots as an approved comp or invent unseen design requirements."
+    ]
+  }
+}

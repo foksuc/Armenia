@@ -1,44 +1,24 @@
-# Armenia Travel OS 2.0 — экспериментальная версия
+# Armenia Travel OS 2.0 · Glass
 
-Ветка: `feature/armenia-travel-os-v2`. Основной сайт в `main` не изменён.
+Independent redesign on `feature/armenia-glassy-v5`, based on the previous `feature/armenia-travel-os-v2`. Original root files and main stay unchanged.
 
-## Что работает
+## Run
+Open `v2/index.html` or serve the repository with any static server. No build dependencies. For the standalone hosted preview run `python v2/build.py`; output is `dist/`, new version at `/v2/` and original guide at `/`.
 
-- Стеклянная адаптивная панель с пятью разделами: Обзор, Маршрут, Места, Бюджет, Брони.
-- Шесть дней маршрута из оригинального сайта; ссылки на Google Maps.
-- Два варианта перелёта с сохранёнными расписаниями и историческими ценами.
-- Учёт расходов в рублях: добавить, изменить, удалить, импортировать и экспортировать CSV.
-- Локальное сохранение лимита, расходов и статусов бронирований в localStorage.
-- Ссылки на концерт, экскурсии и отель.
-- Поддержка reduced motion, фокусных состояний и мобильной ширины.
+## Features
+- Responsive graphite/amber glass dashboard, photo bundled locally, six navigation sections.
+- Six-day itinerary, selected-day embedded map centered on the first stop, multi-stop route link in Google Maps.
+- Per-day local notes, calendar export (all-day itinerary event), printable full itinerary.
+- Search across 13 places including all nine restaurants; original hotel tariffs in an expandable section.
+- Trip estimate follows selected flight: Sochi 53,927–58,927 RUB; Krasnodar 55,057–60,057 RUB. Formula uses half the 24,601 RUB room plus 4,237 concert, 6,700 tours and 15,000–20,000 food/transport/entries. Transfers and some admission fees excluded as in original.
+- Actual expenses remain separate from estimate; editable limit, create/edit/delete, CSV import/export.
+- Booking statuses and preparation checklist; custom tasks; reduced transparency on desktop.
+- Existing localStorage prefix `armenia-v2-` retained.
 
-## Как посмотреть
+## Data limitations
+Historical planning data checked on 24 October 2026, not live prices or confirmed reservations. No cross-device synchronization. Storage is scoped to browser AND site origin: a new preview address starts with empty state; expenses can be moved via CSV. Notes/checklist are local. No service worker/offline installation; downloadable source works locally, map needs internet. Google Fonts optional. Calendar export is an all-day plan, not a timed concert ticket.
 
-Откройте `v2/index.html` локально в браузере. Это автономная страница: сборка и сервер не требуются. Для публикации отдельного превью потребуется отдельная настройка хостинга или GitHub Pages / Actions. Ветка сама по себе не означает опубликованный сайт.
+Glassy Dashboard V5 is visual inspiration, not an imported paid template.
 
-## Ограничения
-
-- Данные сохраняются **только в текущем браузере**, синхронизации нет.
-- Нет автоматического получения курсов валют, погоды, доступности билетов и бронирований.
-- Маршрут и цены основаны на исходном плане от 24.10.2026, не являются подтверждёнными бронированиями.
-- Интерактивная карта пока заменена ссылками на Google Maps.
-- Пока нет автоматизированных браузерных / Android-тестов.
-- Версия использует HTML, CSS и JavaScript без React; миграция на React не выполнена.
-
-## Ручной чек-лист
-
-1. Открыть страницу на телефоне и десктопе; проверить горизонтальный скролл и навигацию.
-2. Переключить все пять разделов, шесть дней и два варианта перелёта.
-3. Добавить расход, изменить, удалить, проверить лимит и остаток.
-4. Экспортировать CSV, импортировать его и проверить корректность строк.
-5. Обновить страницу: расходы и статусы должны сохраниться.
-6. Проверить ссылки на карты и внешние сервисы.
-7. Проверить клавиатурную навигацию и reduced motion.
-
-## Дальнейшая работа
-
-- Отдельное превью с URL, не затрагивающее `main`.
-- Проверка поведения в Chrome на Android.
-- Перенос полной информации оригинального сайта (рестораны, тарифы отеля, подробный бюджет).
-- Сверка расчётов, валют, даты/часовых поясов.
-- Улучшение дизайна после просмотра реального превью.
+## Verification
+Node syntax checks passed. Browser exercised day switching/map URL, both flight estimates, restaurant search, expense create/reload/delete and checklist toggle. Desktop and 390px iframe layouts visually reviewed; no real Android device test. Embedded map is centered on first stop, full route opens separately.
