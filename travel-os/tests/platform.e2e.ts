@@ -5,7 +5,7 @@ test("catalog search, new tab semantics and responsive layout", async ({
 }, info) => {
   await page.goto("/");
   await expect(
-    page.getByRole("heading", { name: "Всё начинается с любопытства." }),
+    page.getByRole("heading", { name: "За пределы привычного." }),
   ).toBeVisible();
   const link = page.getByRole("link", {
     name: /открыть поездку в новой вкладке/,
@@ -112,5 +112,37 @@ test("up/down reveal retains visible content and reduced motion", async ({
   await page.goto("/trips/not-real");
   await expect(
     page.getByRole("heading", { name: /свернули с пути/ }),
+  ).toBeVisible();
+});
+
+test("visible hover, press and spring selection states", async ({
+  page,
+}, info) => {
+  await page.goto("/");
+  await page.getByRole("link", { name: "Путешествия", exact: true }).click();
+  const filter = page.getByRole("button", { name: "Горы", exact: true });
+  const initial = await filter.evaluate(
+    (el) => getComputedStyle(el).backgroundColor,
+  );
+  await filter.hover();
+  await expect
+    .poll(() => filter.evaluate((el) => getComputedStyle(el).backgroundColor))
+    .not.toBe(initial);
+  if (info.project.name === "desktop")
+    await expect
+      .poll(() => filter.evaluate((el) => getComputedStyle(el).transform))
+      .not.toBe("none");
+  await filter.click();
+  await expect(filter).toHaveAttribute("aria-pressed", "true");
+  await expect(filter.locator(".filter-active")).toBeVisible();
+  await page.goto("/trips/armenia-2027");
+  const day = page.getByRole("button", { name: "День 3" });
+  await day.click();
+  await expect(day.locator(".day-active")).toBeVisible();
+  await expect(
+    page.getByRole("heading", {
+      name: "Гарни, Гегард, Симфония камней",
+      exact: true,
+    }),
   ).toBeVisible();
 });

@@ -1,7 +1,7 @@
 name: Travel OS
 on:
   push:
-    branches: [feature/travel-os-rebuild, 'trip/**', release/travel-os]
+    branches: [feature/travel-os-rebuild, feature/travel-os-art-direction, 'trip/**', release/travel-os]
     paths: ['travel-os/**', '.github/workflows/travel-os.yml']
   workflow_dispatch:
 permissions:
