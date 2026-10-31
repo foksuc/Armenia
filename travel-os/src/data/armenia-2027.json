@@ -1,0 +1,1102 @@
+{
+  "schemaVersion": "1.0.0",
+  "tripId": "armenia-2027",
+  "slug": "armenia-2027",
+  "status": "published",
+  "name": "Армения. На полную.",
+  "summary": "Один концерт. Четыре полных дня. Горы, древние монастыри, вино и вечерний Ереван.",
+  "destination": {
+    "continent": "Asia",
+    "countryCode": "AM",
+    "countryName": "Армения",
+    "region": null,
+    "cities": ["Ереван", "Гарни", "Арени"]
+  },
+  "dates": {
+    "kind": "fixed",
+    "startDate": "2027-02-13",
+    "endDate": "2027-02-18",
+    "timezone": "Asia/Yerevan",
+    "durationDays": 6
+  },
+  "travelers": {
+    "adults": 2,
+    "children": 0
+  },
+  "media": {
+    "coverImage": null,
+    "themeAccent": "#edb287"
+  },
+  "itinerary": [
+    {
+      "id": "am-day-1",
+      "dayNumber": 1,
+      "date": "2027-02-13",
+      "title": "Знакомство с Ереваном",
+      "description": "Прилёт, заселение в ibis Yerevan Center после 15:00. Вечерняя прогулка по центру и первый армянский ужин.",
+      "events": [
+        {
+          "id": "am-event-1-1",
+          "title": "ibis Yerevan Center",
+          "description": null,
+          "placeId": "am-place-2",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": []
+        },
+        {
+          "id": "am-event-1-2",
+          "title": "Площадь Республики",
+          "description": null,
+          "placeId": "am-place-3",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": []
+        },
+        {
+          "id": "am-event-1-3",
+          "title": "Lavash",
+          "description": null,
+          "placeId": "am-place-4",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": []
+        }
+      ]
+    },
+    {
+      "id": "am-day-2",
+      "dayNumber": 2,
+      "date": "2027-02-14",
+      "title": "История днём. Музыка вечером.",
+      "description": "11:00–13:00 Музей истории Армении. 13:00–15:00 Вернисаж: по воскресеньям работает больше торговых рядов. Затем отдых в отеле и выезд на концерт к 20:00. Музей 11:00–17:00, вход до 16:15 · Вернисаж 10:00–18:00 по текущему расписанию",
+      "events": [
+        {
+          "id": "am-event-2-1",
+          "title": "Музей истории",
+          "description": null,
+          "placeId": "am-place-5",
+          "startTime": "11:00",
+          "endTime": "13:00",
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": []
+        },
+        {
+          "id": "am-event-2-2",
+          "title": "Вернисаж",
+          "description": null,
+          "placeId": "am-place-6",
+          "startTime": "13:00",
+          "endTime": "15:00",
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": []
+        },
+        {
+          "id": "am-event-2-3",
+          "title": "Концертный комплекс",
+          "description": null,
+          "placeId": "am-place-1",
+          "startTime": "20:00",
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": ["concert"],
+          "sourceIds": ["v1-source"],
+          "externalLinks": []
+        }
+      ]
+    },
+    {
+      "id": "am-day-3",
+      "dayNumber": 3,
+      "date": "2027-02-15",
+      "title": "Гарни, Гегард, Симфония камней",
+      "description": "Храм над ущельем, монастырь в скале и базальтовые колонны. Короткие прогулки и время для видов. В феврале дорожки в ущелье могут быть скользкими: порядок остановок определит гид. Гарни: на сайте музея 10:00–21:30, зимние часы в источниках расходятся. У монастыря и ущелья фиксированные официальные часы не найдены; тур проходит днём.",
+      "events": [
+        {
+          "id": "am-event-3-1",
+          "title": "Храм Гарни",
+          "description": null,
+          "placeId": "am-place-7",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": ["tour-garni"],
+          "sourceIds": ["v1-source"],
+          "externalLinks": ["https://experience.tripster.ru/experience/91773/"]
+        },
+        {
+          "id": "am-event-3-2",
+          "title": "Гегард",
+          "description": null,
+          "placeId": "am-place-8",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": ["https://experience.tripster.ru/experience/91773/"]
+        },
+        {
+          "id": "am-event-3-3",
+          "title": "Симфония камней",
+          "description": null,
+          "placeId": "am-place-9",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": ["https://experience.tripster.ru/experience/91773/"]
+        }
+      ]
+    },
+    {
+      "id": "am-day-4",
+      "dayNumber": 4,
+      "date": "2027-02-16",
+      "title": "Хор Вирап, Нораванк, Арени",
+      "description": "Вид на Арарат, красные скалы Нораванка и дегустация в винном регионе Арени. Выезд длиннее, поэтому вечер оставить свободным. Для монастырей нет надёжного единого официального времени работы; поездка запланирована на светлое время дня.",
+      "events": [
+        {
+          "id": "am-event-4-1",
+          "title": "Хор Вирап",
+          "description": null,
+          "placeId": "am-place-10",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": ["tour-khor"],
+          "sourceIds": ["v1-source"],
+          "externalLinks": ["https://experience.tripster.ru/experience/50490/"]
+        },
+        {
+          "id": "am-event-4-2",
+          "title": "Нораванк",
+          "description": null,
+          "placeId": "am-place-11",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": ["https://experience.tripster.ru/experience/50490/"]
+        },
+        {
+          "id": "am-event-4-3",
+          "title": "Арени",
+          "description": null,
+          "placeId": "am-place-12",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": ["https://experience.tripster.ru/experience/50490/"]
+        }
+      ]
+    },
+    {
+      "id": "am-day-5",
+      "dayNumber": 5,
+      "date": "2027-02-17",
+      "title": "Рукописи, Каскад и ужин",
+      "description": "Утром Матенадаран, затем Каскад и его эскалаторная галерея. Вечером ресторан и армянское вино. Выставочные залы Центра Гафесчяна по средам закрыты, открыты галерея эскалаторов и парк скульптур. Матенадаран 10:00–17:50 · Галерея эскалаторов 08:00–20:00 ежедневно",
+      "events": [
+        {
+          "id": "am-event-5-1",
+          "title": "Матенадаран",
+          "description": null,
+          "placeId": "am-place-13",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": []
+        },
+        {
+          "id": "am-event-5-2",
+          "title": "Каскад",
+          "description": null,
+          "placeId": "am-place-14",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": []
+        },
+        {
+          "id": "am-event-5-3",
+          "title": "Wine Republic",
+          "description": null,
+          "placeId": "am-place-15",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": []
+        }
+      ]
+    },
+    {
+      "id": "am-day-6",
+      "dayNumber": 6,
+      "date": "2027-02-18",
+      "title": "До скорой встречи, Армения",
+      "description": "Из Краснодара: ранний вылет из Еревана в 08:40. Через Сочи: вылет в 17:20, выезд из отеля до 12:00 и поезд Адлер → Краснодар в 19:38.",
+      "events": [
+        {
+          "id": "am-event-6-1",
+          "title": "Аэропорт Еревана",
+          "description": null,
+          "placeId": "am-place-16",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": []
+        },
+        {
+          "id": "am-event-6-2",
+          "title": "Станция Адлер",
+          "description": null,
+          "placeId": "am-place-17",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "externalLinks": []
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "am-place-1",
+      "name": "Концертный комплекс",
+      "category": "concert",
+      "address": "Karen Demirchyan Sports and Concert Complex, Yerevan",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-2",
+      "name": "ibis Yerevan Center",
+      "category": "hotel",
+      "address": "ibis Yerevan Center, 5/1 Northern Avenue, Yerevan",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-3",
+      "name": "Площадь Республики",
+      "category": "landmark",
+      "address": "Republic Square, Yerevan",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-4",
+      "name": "Lavash",
+      "category": "restaurant",
+      "address": "Lavash Restaurant, 21 Tumanyan Street, Yerevan",
+      "location": null,
+      "description": "01 / АРМЯНСКАЯ КУХНЯ Lavash Классика и яркий первый ужин. Ул. Туманяна, 21. ЕЖЕДНЕВНО · 08:30–00:00 ↗",
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-5",
+      "name": "Музей истории",
+      "category": "museum",
+      "address": "History Museum of Armenia, Republic Square, Yerevan",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-6",
+      "name": "Вернисаж",
+      "category": "landmark",
+      "address": "Vernissage Market, Yerevan",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-7",
+      "name": "Храм Гарни",
+      "category": "landmark",
+      "address": "Temple of Garni, Armenia",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-8",
+      "name": "Гегард",
+      "category": "landmark",
+      "address": "Geghard Monastery, Armenia",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-9",
+      "name": "Симфония камней",
+      "category": "landmark",
+      "address": "Symphony of Stones, Garni Gorge, Armenia",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-10",
+      "name": "Хор Вирап",
+      "category": "landmark",
+      "address": "Khor Virap Monastery, Armenia",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-11",
+      "name": "Нораванк",
+      "category": "landmark",
+      "address": "Noravank Monastery, Armenia",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-12",
+      "name": "Арени",
+      "category": "landmark",
+      "address": "Areni, Vayots Dzor, Armenia",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-13",
+      "name": "Матенадаран",
+      "category": "museum",
+      "address": "Matenadaran, Yerevan",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-14",
+      "name": "Каскад",
+      "category": "museum",
+      "address": "Cafesjian Center for the Arts, Cascade, Yerevan",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-15",
+      "name": "Wine Republic",
+      "category": "restaurant",
+      "address": "Wine Republic, 2 Tamanyan Street, Yerevan",
+      "location": null,
+      "description": "03 / ВИНО Wine Republic Армянские вина после прогулки по Каскаду. Ул. Таманяна, 2. ЕЖЕДНЕВНО · 12:00–00:00 ↗",
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-16",
+      "name": "Аэропорт Еревана",
+      "category": "transport",
+      "address": "Zvartnots International Airport, Yerevan",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-17",
+      "name": "Станция Адлер",
+      "category": "transport",
+      "address": "Adler Railway Station, Sochi, Russia",
+      "location": null,
+      "description": null,
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-18",
+      "name": "Greenpoint",
+      "category": "restaurant",
+      "address": "Greenpoint Cafe, 62 Hanrapetutyan Street, Yerevan",
+      "location": null,
+      "description": "04 / ЗАВТРАК Greenpoint Завтрак вне отеля. Ул. Анрапетутян, 62. ПН–ПТ 08:30–22:00 · СБ–ВС 09:30–22:00 ↗",
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-19",
+      "name": "ArtBridge",
+      "category": "restaurant",
+      "address": "ArtBridge Bookstore Cafe, 20 Abovyan Street, Yerevan",
+      "location": null,
+      "description": "05 / ЗАВТРАК И КОФЕ ArtBridge Кафе и книжный магазин. Ул. Абовяна, 20. ЕЖЕДНЕВНО · 08:30–00:00 ↗",
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-20",
+      "name": "Gata Tavern",
+      "category": "restaurant",
+      "address": "Gata Tavern, 22 Tumanyan Street, Yerevan",
+      "location": null,
+      "description": "06 / АРМЯНСКИЕ БЛЮДА Gata Tavern Традиционные блюда и гата. Ул. Туманяна, 22. ЕЖЕДНЕВНО · 10:00–00:00 ↗",
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-21",
+      "name": "Tumanyan Shaurma",
+      "category": "restaurant",
+      "address": "Tumanyan Shaurma, 32/36 Tumanyan Street, Yerevan",
+      "location": null,
+      "description": "09 / БЫСТРЫЙ ПЕРЕКУС Tumanyan Shaurma Шаурма в центре, в том числе после концерта. Ул. Туманяна, 32/36. КРУГЛОСУТОЧНО ↗",
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-22",
+      "name": "Tavern Yerevan",
+      "category": "restaurant",
+      "address": "Tavern Yerevan, 91 Teryan Street, Yerevan",
+      "location": null,
+      "description": "07 / УЖИН ПОСЛЕ ТУРА Tavern Yerevan Армянская кухня, филиал на ул. Теряна, 91. ЕЖЕДНЕВНО · 10:00–00:00 ↗",
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-23",
+      "name": "Dolmama",
+      "category": "restaurant",
+      "address": "Dolmama, 10 Pushkin Street, Yerevan",
+      "location": null,
+      "description": "08 / ОСОБЫЙ УЖИН Dolmama Долма и армянское вино. Ул. Пушкина, 10. ЕЖЕДНЕВНО · 11:00–23:30 ↗",
+      "sourceIds": ["v1-source"]
+    },
+    {
+      "id": "am-place-24",
+      "name": "Sherep",
+      "category": "restaurant",
+      "address": "Sherep Restaurant, 1 Amiryan Street, Yerevan",
+      "location": null,
+      "description": "02 / УЖИН В ЦЕНТРЕ Sherep Современная подача и вид на городской ритм. Ул. Амиряна, 1. ЕЖЕДНЕВНО · 09:30–00:00 ↗",
+      "sourceIds": ["v1-source"]
+    }
+  ],
+  "transportOptions": [
+    {
+      "id": "direct-krr",
+      "label": "Краснодар ↔ Ереван",
+      "description": "16 819 ₽ на человека · 33 638 ₽ за двоих. Время локальное: Краснодар Europe/Moscow, Ереван Asia/Yerevan.",
+      "legs": [
+        {
+          "id": "krr-out",
+          "mode": "plane",
+          "from": "Краснодар",
+          "to": "Ереван",
+          "date": "2027-02-13",
+          "departTime": "10:40",
+          "arriveTime": "13:20",
+          "arriveDate": "2027-02-13",
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "notes": null
+        },
+        {
+          "id": "krr-back",
+          "mode": "plane",
+          "from": "Ереван",
+          "to": "Краснодар",
+          "date": "2027-02-18",
+          "departTime": "08:40",
+          "arriveTime": "09:25",
+          "arriveDate": "2027-02-18",
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "notes": null
+        }
+      ],
+      "priceIds": ["flight-krr"],
+      "sourceIds": ["v1-source", "source-2"]
+    },
+    {
+      "id": "via-sochi",
+      "label": "Через Сочи · перелёт + Ласточки",
+      "description": "15 689 ₽ на человека: 13 075 ₽ перелёт + 2 614 ₽ поезда. Возвращение в Краснодар 19 февраля в 00:31; не смешивать с прямым рейсом. Время локальное для каждого города.",
+      "legs": [
+        {
+          "id": "train-out",
+          "mode": "train",
+          "from": "Краснодар",
+          "to": "аэропорт Сочи",
+          "date": "2027-02-13",
+          "departTime": "09:18",
+          "arriveTime": "14:52",
+          "arriveDate": "2027-02-13",
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "notes": null
+        },
+        {
+          "id": "aer-out",
+          "mode": "plane",
+          "from": "Сочи",
+          "to": "Ереван",
+          "date": "2027-02-13",
+          "departTime": "18:30",
+          "arriveTime": "20:40",
+          "arriveDate": "2027-02-13",
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "notes": null
+        },
+        {
+          "id": "aer-back",
+          "mode": "plane",
+          "from": "Ереван",
+          "to": "Сочи",
+          "date": "2027-02-18",
+          "departTime": "17:20",
+          "arriveTime": "17:30",
+          "arriveDate": "2027-02-18",
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "notes": null
+        },
+        {
+          "id": "train-back",
+          "mode": "train",
+          "from": "Адлер",
+          "to": "Краснодар",
+          "date": "2027-02-18",
+          "departTime": "19:38",
+          "arriveTime": "00:31",
+          "arriveDate": "2027-02-19",
+          "priceIds": [],
+          "sourceIds": ["v1-source"],
+          "notes": null
+        }
+      ],
+      "priceIds": ["route-sochi"],
+      "sourceIds": ["v1-source", "source-3"]
+    }
+  ],
+  "accommodationOptions": [
+    {
+      "id": "hotel-basic",
+      "name": "ibis Yerevan Center · за двоих / 5 ночей без завтрака, невозвратный",
+      "placeId": "am-place-2",
+      "checkIn": "2027-02-13",
+      "checkOut": "2027-02-18",
+      "description": "Северный проспект, 5/1. Удобно возвращаться после концерта и гулять по центру. В выбранном Standard Double указана ванна. Заезд с 15:00, выезд до 12:00. 24 601 ₽ за двоих / 5 ночей без завтрака, невозвратный Итоговые суммы с налогами и сборами в русской версии Trip.com, 24.10.2026. На момент проверки действовала скидка авторизованного пользователя Silver.",
+      "priceIds": ["hotel-basic"],
+      "sourceIds": ["v1-source", "source-8"]
+    },
+    {
+      "id": "hotel-flex",
+      "name": "ibis Yerevan Center · за двоих / 5 ночей без завтрака, отмена до 12.02",
+      "placeId": "am-place-2",
+      "checkIn": "2027-02-13",
+      "checkOut": "2027-02-18",
+      "description": "Северный проспект, 5/1. Удобно возвращаться после концерта и гулять по центру. В выбранном Standard Double указана ванна. Заезд с 15:00, выезд до 12:00. 28 275 ₽ за двоих / 5 ночей без завтрака, отмена до 12.02 Итоговые суммы с налогами и сборами в русской версии Trip.com, 24.10.2026. На момент проверки действовала скидка авторизованного пользователя Silver.",
+      "priceIds": ["hotel-flex"],
+      "sourceIds": ["v1-source", "source-8"]
+    },
+    {
+      "id": "hotel-breakfast",
+      "name": "ibis Yerevan Center · за двоих / 5 ночей два завтрака, невозвратный",
+      "placeId": "am-place-2",
+      "checkIn": "2027-02-13",
+      "checkOut": "2027-02-18",
+      "description": "Северный проспект, 5/1. Удобно возвращаться после концерта и гулять по центру. В выбранном Standard Double указана ванна. Заезд с 15:00, выезд до 12:00. 37 459 ₽ за двоих / 5 ночей два завтрака, невозвратный Итоговые суммы с налогами и сборами в русской версии Trip.com, 24.10.2026. На момент проверки действовала скидка авторизованного пользователя Silver.",
+      "priceIds": ["hotel-breakfast"],
+      "sourceIds": ["v1-source", "source-8"]
+    },
+    {
+      "id": "hotel-breakfast-flex",
+      "name": "ibis Yerevan Center · за двоих / 5 ночей два завтрака, отмена до 12.02",
+      "placeId": "am-place-2",
+      "checkIn": "2027-02-13",
+      "checkOut": "2027-02-18",
+      "description": "Северный проспект, 5/1. Удобно возвращаться после концерта и гулять по центру. В выбранном Standard Double указана ванна. Заезд с 15:00, выезд до 12:00. 40 838 ₽ за двоих / 5 ночей два завтрака, отмена до 12.02 Итоговые суммы с налогами и сборами в русской версии Trip.com, 24.10.2026. На момент проверки действовала скидка авторизованного пользователя Silver.",
+      "priceIds": ["hotel-breakfast-flex"],
+      "sourceIds": ["v1-source", "source-8"]
+    }
+  ],
+  "priceRecords": [
+    {
+      "id": "flight-krr",
+      "amount": 16819,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "Туда-обратно на человека; 33 638 ₽ за двоих на Trip.com"
+    },
+    {
+      "id": "route-sochi",
+      "amount": 15689,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "13 075 ₽ перелёт + 2 614 ₽ Ласточки; взаимоисключает прямой маршрут"
+    },
+    {
+      "id": "flight-sochi",
+      "amount": 13075,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": null
+    },
+    {
+      "id": "trains-sochi",
+      "amount": 2614,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": null
+    },
+    {
+      "id": "concert",
+      "amount": 4237,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "Танцпол; билеты ещё не куплены"
+    },
+    {
+      "id": "tour-garni",
+      "amount": 2530,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "15 ФЕВРАЛЯ · ~6 ЧАСОВ ≈ 2 530 ₽ / ЧЕЛ. Гарни · Гегард · Симфония камней Групповой тур до 40 человек. По описанию Tripster: 4,91/5 на основе 223 отзывов. Входные билеты уточнить у организатора. Экскурсия ↗ Начало маршрута на карте ↗"
+    },
+    {
+      "id": "tour-khor",
+      "amount": 4150,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "16 ФЕВРАЛЯ · ~9 ЧАСОВ ≈ 4 150 ₽ / ЧЕЛ. Хор Вирап · Нораванк · Арени Мини-группа до 6 человек, русскоязычный гид и дегустация вина. На Tripster: 4,87/5 на основе 54 отзывов. Экскурсия ↗ Начало маршрута на карте ↗"
+    },
+    {
+      "id": "hotel-share-original",
+      "amount": 12301,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "Округлённая половина номера из бюджета V1; сохранена без пересчёта"
+    },
+    {
+      "id": "tours-original-total",
+      "amount": 6700,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "Исходный округлённый ориентир V1; 2 530 + 4 150 = 6 680, исходник не исправлен"
+    },
+    {
+      "id": "daily-low",
+      "amount": 15000,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "Еда, городской транспорт, входы, нижняя оценка"
+    },
+    {
+      "id": "daily-high",
+      "amount": 20000,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "Еда, городской транспорт, входы, верхняя оценка"
+    },
+    {
+      "id": "breakfast-addon",
+      "amount": 1286,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "Доплата за утро; 12 858 ₽ за двоих / 5 ночей"
+    },
+    {
+      "id": "greenpoint-low",
+      "amount": 825,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": null
+    },
+    {
+      "id": "greenpoint-high",
+      "amount": 1004,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": null
+    },
+    {
+      "id": "breakfast-ibis",
+      "amount": 1339,
+      "currency": "RUB",
+      "basis": "per_person",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": null
+    },
+    {
+      "id": "hotel-basic",
+      "amount": 24601,
+      "currency": "RUB",
+      "basis": "total",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "За двоих / 5 ночей, налоги и сборы включены, Silver, Trip.com 24.10.2026"
+    },
+    {
+      "id": "hotel-flex",
+      "amount": 28275,
+      "currency": "RUB",
+      "basis": "total",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "За двоих / 5 ночей, налоги и сборы включены, Silver, Trip.com 24.10.2026"
+    },
+    {
+      "id": "hotel-breakfast",
+      "amount": 37459,
+      "currency": "RUB",
+      "basis": "total",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "За двоих / 5 ночей, налоги и сборы включены, Silver, Trip.com 24.10.2026"
+    },
+    {
+      "id": "hotel-breakfast-flex",
+      "amount": 40838,
+      "currency": "RUB",
+      "basis": "total",
+      "recordedAt": "2026-10-24",
+      "isEstimate": true,
+      "sourceIds": ["v1-source"],
+      "notes": "За двоих / 5 ночей, налоги и сборы включены, Silver, Trip.com 24.10.2026"
+    }
+  ],
+  "sources": [
+    {
+      "id": "v1-source",
+      "title": "Оригинальная Армения V1, неизменяемый коммит",
+      "url": "https://github.com/foksuc/Armenia/blob/a96b811bb87d0ec2ed200211215fe02a3f3a2e62/index.html",
+      "checkedAt": "2026-10-31",
+      "type": "other",
+      "notes": "Цены и часы в оригинале зафиксированы 24.10.2026, заново не проверялись."
+    },
+    {
+      "id": "source-1",
+      "title": "Билеты ↗",
+      "url": "https://ticketon.am/ru/event/skryptonite-live-in-yerevan",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-2",
+      "title": "Смотреть перелёт ↗",
+      "url": "https://ru.trip.com/flights/showfarefirst?dcity=KRR&acity=EVN&ddate=2027-02-13&class=Y&triptype=RT&quantity=2&childqty=0&babyqty=0&topflightno=3F3394,3F3393&rdate=2027-02-18&sort=price&locale=ru-RU&curr=RUB",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-3",
+      "title": "Смотреть перелёт ↗",
+      "url": "https://ru.trip.com/flights/showfarefirst?dcity=AER&acity=EVN&ddate=2027-02-13&class=Y&triptype=RT&quantity=2&childqty=0&babyqty=0&topflightno=3F3350,3F3349&rdate=2027-02-18&sort=price&locale=ru-RU&curr=RUB",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-4",
+      "title": "ЖД туда ↗",
+      "url": "https://www.tutu.ru/poezda/Krasnodar/aerovokzalnyy_kompleks_Adler/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-5",
+      "title": "ЖД обратно ↗",
+      "url": "https://www.tutu.ru/poezda/Adler/Krasnodar/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-6",
+      "title": "Открыть групповой тур ↗",
+      "url": "https://experience.tripster.ru/experience/91773/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-7",
+      "title": "Открыть тур с дегустацией ↗",
+      "url": "https://experience.tripster.ru/experience/50490/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-8",
+      "title": "Посмотреть номера ↗",
+      "url": "https://ru.trip.com/hotels/yerevan-hotel-detail-9258917/ibis-yerevan-center/?checkIn=2027-02-13&checkOut=2027-02-18&adult=2&crn=1&locale=ru-RU&curr=RUB",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-9",
+      "title": "Музей истории · вт–сб 11–18, вс 11–17 ↗",
+      "url": "https://historymuseum.am/en/hours-and-admission/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-10",
+      "title": "Матенадаран · вт–сб 10–17:50 ↗",
+      "url": "https://matenadaran.am/en/matenadaran/museum-and-gallery/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-11",
+      "title": "Каскад · эскалаторы ежедневно 08–20 ↗",
+      "url": "https://cmf.am/index.php/en/visit-cca",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-12",
+      "title": "Вернисаж · ежедневно 10–18 ↗",
+      "url": "https://www.visityerevan.am/places/details/325/en/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-13",
+      "title": "Гарни · опубликовано 10–21:30, зимний график уточнить ↗",
+      "url": "https://garni.mus.am/en/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-14",
+      "title": "ibis · заезд 15:00 / выезд 12:00 ↗",
+      "url": "https://all.accor.com/hotel/7309/index.en.shtml",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-15",
+      "title": "Lavash · ежедневно 08:30–00:00 ↗",
+      "url": "https://visitarmenia.travel/en/entertainment/173",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-16",
+      "title": "Sherep · ежедневно 09:30–00:00 ↗",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g293932-d13157535-Reviews-Sherep_Restaurant-Yerevan.html",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-17",
+      "title": "Wine Republic · ежедневно 12–00 ↗",
+      "url": "https://www.pages.am/en/pages/wine-republic/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-18",
+      "title": "Greenpoint · график и меню ↗",
+      "url": "https://greenpoint.cafe/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-19",
+      "title": "ArtBridge · 08:30–00:00 ↗",
+      "url": "https://www.visitarmenia.travel/en/cafes/9",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-20",
+      "title": "Gata Tavern · 10:00–00:00 ↗",
+      "url": "https://gatapandok.am/en/contacts/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-21",
+      "title": "Tavern Yerevan · 10:00–00:00 ↗",
+      "url": "https://www.pages.am/en/pages/tavern-yerevan/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-22",
+      "title": "Dolmama · 11:00–23:30 ↗",
+      "url": "https://dolmama.am/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-23",
+      "title": "Tumanyan Shaurma · круглосуточно ↗",
+      "url": "https://www.pages.am/en/pages/tumanyan-shaurma-fast-food-restaurants-armenia/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-24",
+      "title": "Курс пересчёта других расходов · ЦБ РФ ↗",
+      "url": "https://www.cbr.ru/currency_base/daily/",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-25",
+      "title": "Оплата картой «Мир» и СБП · Trip.com ↗",
+      "url": "https://ru.trip.com/ask/questions/%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D1%8B-%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D1%8B-%D0%BD%D0%B0-trip.com.html",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-26",
+      "title": "Khor Virap / Rita Willaert",
+      "url": "https://commons.wikimedia.org/wiki/File:Khor_Virap_-_Armenia_(2911406199).jpg",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    },
+    {
+      "id": "source-27",
+      "title": "Garni / Clay Gilliland",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Temple_of_Garni_(29365546500).jpg",
+      "checkedAt": "2026-10-24",
+      "type": "other",
+      "notes": "Источник из V1; дата проверки сохранена из V1."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "verify-prices",
+      "severity": "warning",
+      "question": "Исторические цены и часы на 24.10.2026; наличие экскурсий на 15–16.02.2027 не подтверждено. Монастырские часы и зимний график Гарни уточнить.",
+      "relatedIds": []
+    },
+    {
+      "id": "missing-geometry",
+      "severity": "warning",
+      "question": "Дорожная геометрия не подтверждена; карта показывает проверенные точки без выдуманных линий.",
+      "relatedIds": []
+    }
+  ],
+  "tags": ["Горы", "Культура", "Концерт", "Гастрономия"],
+  "geo": {
+    "routeStatus": "missing",
+    "notes": "Координаты обогащаются отдельно; проверенной дорожной геометрии нет."
+  }
+}

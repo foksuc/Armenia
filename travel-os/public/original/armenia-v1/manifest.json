@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/foksuc/Armenia",
+  "commit": "a96b811bb87d0ec2ed200211215fe02a3f3a2e62",
+  "capturedAt": "2026-10-31",
+  "pricesRecordedAt": "2026-10-24",
+  "files": {
+    "README.md": {
+      "sha256": "250a1390f2bb70c3e2ea2c297078bf4a5b4d4fb2ea5ab8bc04c86d286b972386"
+    },
+    "index.html": {
+      "sha256": "55e3466ef31233f19027fd2c3e0b99399cb6591d432551678052f01ddab4f2a8"
+    },
+    "script.js": {
+      "sha256": "b4e1c980d682499a9ee08659a8a34a9186f10da1036cb477095c6cc036ee2f16"
+    },
+    "style.css": {
+      "sha256": "aefb110c5c677623236211884b14979781fe28a17e75180e59650ae6fd83923e"
+    }
+  }
+}

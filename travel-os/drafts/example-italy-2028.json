@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.0.0",
+  "tripId": "example-italy-2028",
+  "slug": "example-italy-2028",
+  "status": "draft",
+  "name": "ДЕМО: Рим — учебный пакет",
+  "summary": "Исключительно технический образец передачи поездки, не реальная программа и не рекомендация.",
+  "destination": {
+    "continent": "Europe",
+    "countryCode": "IT",
+    "countryName": "Италия",
+    "region": null,
+    "cities": [
+      "Рим"
+    ]
+  },
+  "dates": {
+    "kind": "fixed",
+    "startDate": "2028-05-01",
+    "endDate": "2028-05-02",
+    "timezone": "Europe/Rome",
+    "durationDays": 2
+  },
+  "travelers": {
+    "adults": 2,
+    "children": 0
+  },
+  "media": {
+    "coverImage": null,
+    "themeAccent": null
+  },
+  "itinerary": [
+    {
+      "id": "day-one",
+      "dayNumber": 1,
+      "date": "2028-05-01",
+      "title": "Учебный день 1",
+      "description": "Не опубликовано; время и программа требуют проверки.",
+      "events": [
+        {
+          "id": "event-one",
+          "title": "Пример посещения центра",
+          "description": null,
+          "placeId": "place-one",
+          "startTime": null,
+          "endTime": null,
+          "durationMinutes": null,
+          "transportMode": null,
+          "priceIds": [],
+          "sourceIds": [],
+          "externalLinks": []
+        }
+      ]
+    },
+    {
+      "id": "day-two",
+      "dayNumber": 2,
+      "date": "2028-05-02",
+      "title": "Учебный день 2",
+      "description": null,
+      "events": []
+    }
+  ],
+  "places": [
+    {
+      "id": "place-one",
+      "name": "Пример локации в Риме",
+      "category": "other",
+      "address": null,
+      "location": null,
+      "description": "Демонстрационное значение, не использовать в публичном туре.",
+      "sourceIds": []
+    }
+  ],
+  "transportOptions": [],
+  "accommodationOptions": [],
+  "priceRecords": [],
+  "sources": [],
+  "unresolved": [
+    {
+      "id": "q-verify",
+      "severity": "blocking",
+      "question": "Пример не содержит проверенных источников и не подлежит публикации.",
+      "relatedIds": [
+        "event-one",
+        "place-one"
+      ]
+    }
+  ],
+  "tags": [
+    "sample-only"
+  ],
+  "geo": {
+    "routeStatus": "missing",
+    "notes": "GeoJSON отсутствует, импорт только для проверки структуры."
+  }
+}

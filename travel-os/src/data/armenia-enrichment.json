@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.576111111111, 39.878333333333]
+      },
+      "properties": {
+        "placeId": "am-place-10",
+        "name": "Хор Вирап",
+        "sourceUrl": "https://www.wikidata.org/wiki/Q1144626",
+        "checkedAt": "2026-10-31",
+        "license": "CC0",
+        "precisionDegrees": 0.00027777777777778
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.729, 40.112]
+      },
+      "properties": {
+        "placeId": "am-place-7",
+        "name": "Храм Гарни",
+        "sourceUrl": "https://www.wikidata.org/wiki/Q684072",
+        "checkedAt": "2026-10-31",
+        "license": "CC0",
+        "precisionDegrees": 0.001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.52113, 40.19207]
+      },
+      "properties": {
+        "placeId": "am-place-13",
+        "name": "Матенадаран",
+        "sourceUrl": "https://www.wikidata.org/wiki/Q1322278",
+        "checkedAt": "2026-10-31",
+        "license": "CC0",
+        "precisionDegrees": 1e-5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.515522, 40.191375]
+      },
+      "properties": {
+        "placeId": "am-place-14",
+        "name": "Каскад",
+        "sourceUrl": "https://www.wikidata.org/wiki/Q2940844",
+        "checkedAt": "2026-10-31",
+        "license": "CC0",
+        "precisionDegrees": 2.77777777778e-6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.18388889, 39.72083333]
+      },
+      "properties": {
+        "placeId": "am-place-12",
+        "name": "Арени",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Areni",
+        "checkedAt": "2026-10-31",
+        "license": "CC BY-SA 4.0",
+        "precisionDegrees": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.818511, 40.140425]
+      },
+      "properties": {
+        "placeId": "am-place-8",
+        "name": "Гегард",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Geghard",
+        "checkedAt": "2026-10-31",
+        "license": "CC BY-SA 4.0",
+        "precisionDegrees": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.5142, 40.1787]
+      },
+      "properties": {
+        "placeId": "am-place-5",
+        "name": "Музей истории",
+        "sourceUrl": "https://en.wikipedia.org/wiki/History_Museum_of_Armenia",
+        "checkedAt": "2026-10-31",
+        "license": "CC BY-SA 4.0",
+        "precisionDegrees": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.48333333, 40.18805556]
+      },
+      "properties": {
+        "placeId": "am-place-1",
+        "name": "Концертный комплекс",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Karen_Demirchyan_Complex",
+        "checkedAt": "2026-10-31",
+        "license": "CC BY-SA 4.0",
+        "precisionDegrees": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.232872, 39.684061]
+      },
+      "properties": {
+        "placeId": "am-place-11",
+        "name": "Нораванк",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Noravank",
+        "checkedAt": "2026-10-31",
+        "license": "CC BY-SA 4.0",
+        "precisionDegrees": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.51277778, 40.17777778]
+      },
+      "properties": {
+        "placeId": "am-place-3",
+        "name": "Площадь Республики",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Republic_Square,_Yerevan",
+        "checkedAt": "2026-10-31",
+        "license": "CC BY-SA 4.0",
+        "precisionDegrees": null
+      }
+    }
+  ]
+}
