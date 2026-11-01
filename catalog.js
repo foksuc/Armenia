@@ -61,7 +61,7 @@
           <div class="flight-times"><p><b>Туда</b><span>${trip.flight.out}</span></p><p><b>Обратно</b><span>${trip.flight.back}</span></p></div>
           <p class="subtle">${trip.flight.detail}</p>${ext(trip.flight.url,'Проверить перелёт в ₽ на Trip.com','pill dark-pill')}</div>
         <div class="stay-panel"><p class="eyebrow">База в городе</p><h2>${trip.hotel.name}</h2><p>${trip.hotel.area}</p><p>${trip.hotel.room}</p>
-          <div class="hotel-price"><strong>${trip.hotel.price}</strong><span>${trip.hotel.priceNote}</span></div>
+          <div class="hotel-price"><strong>${trip.hotel.price}</strong><span>${trip.hotel.priceNote} Проверено 01.11.2026.</span></div>
           <div class="link-row">${ext(trip.hotel.url,'Проверить номер на Trip.com','text-link')}${ext(map(trip.hotel.map),'На Google Maps','text-link')}${ext(trip.hotel.proof,'Условия номера','text-link')}</div></div>
       </section>
       <section class="days-section" id="days"><div class="wrap"><div class="section-heading"><p class="eyebrow">День за днём</p><h2>Шесть дней,<br><em>свой ритм.</em></h2></div>
